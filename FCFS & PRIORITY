@@ -27,4 +27,24 @@ void get()   //List of gifts taken by students(Value Entered By User)
                   printf("\n\n");
                 }
        }
+ void sorting()   //Arrangement Of Students According to No. of gifts Chosen
+   {
+        printf("*********Order Of Billed Students*****************\n\n");
+             for(i=0;i<n;i++)
+            {
+               for(j=i+1;j<n;++j)
+                             {
+                            if(A_T[i]<A_T[j])          //Student with max no of gifts is given priority
+                                         {
+                                     t=A_T[i];      //Swapping the Values
+                                   A_T[i]=A_T[j];
+                                A_T[j]=t;
+                                t=p_no[i];       //t is temporary variable
+                                p_no[i]=p_no[j];              //Swapping The Process No's
+                                p_no[j]=t;
+                              }
+                            }
+                         }
+    }
+                            
        
