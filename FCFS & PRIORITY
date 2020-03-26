@@ -46,5 +46,23 @@ void get()   //List of gifts taken by students(Value Entered By User)
                             }
                          }
     }
+    int main()
+    {
+       printf("Enter The No. Of Students Who Purchase Gift:-");  //Process Number Initialization
+      scanf("%d",&n);
+      printf("Enter The Cost Of One Gift:-");
+      scanf("%f",&cost);
+      printf("*************Enter The Number Of Gifts Corresponding To Each Student***********************);
+        for(i=0;i<n;i++)
+         {
+            printf(="\nStudent_No[%d]\n",i+1);
+            printf("Enter The Number Of Gifts Purchased :");   //User Input Data
+            scanf("%d",&A_T[i]);
+            p_no[i]=i+1;    //its process number
+          }
+        get();
+        sorting();
+        billfn();
+      }
                             
        
