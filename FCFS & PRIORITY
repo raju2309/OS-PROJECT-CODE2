@@ -52,10 +52,10 @@ void get()   //List of gifts taken by students(Value Entered By User)
       scanf("%d",&n);
       printf("Enter The Cost Of One Gift:-");
       scanf("%f",&cost);
-      printf("*************Enter The Number Of Gifts Corresponding To Each Student***********************);
+      printf("*************Enter The Number Of Gifts Corresponding To Each Student***********************");
         for(i=0;i<n;i++)
          {
-            printf(="\nStudent_No[%d]\n",i+1);
+            printf("=\nStudent_No[%d]\n",i+1);
             printf("Enter The Number Of Gifts Purchased :");   //User Input Data
             scanf("%d",&A_T[i]);
             p_no[i]=i+1;    //its process number
